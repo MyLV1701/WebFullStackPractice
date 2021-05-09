@@ -1,0 +1,11 @@
+
+/* apply to generic content */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 100px 0px 0px 200px;
+    width: 200px;
+}
+
