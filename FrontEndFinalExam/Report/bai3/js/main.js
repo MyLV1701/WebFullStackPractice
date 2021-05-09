@@ -5,7 +5,9 @@ function AccountRegisterHandle(){
     * Perform to input content inspection
     *   if (email field) || (pwd field) || (repeat pwd field)  -> empty
     *       show alert to user
-    *   else 
+    *   else if (agree terms and condition have not confirmed yet)
+    *       show message to user -> must to confirm items above
+    *   else
     *       do nothing
     */
 
