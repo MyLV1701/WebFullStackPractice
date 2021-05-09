@@ -1,8 +1,9 @@
+
+/* apply to generic content */
 *{
     margin: 0;
     box-sizing: border-box;
 }
-
 .wrapper{
     margin-top: 30px;
     padding-left: 10vh;
@@ -47,14 +48,14 @@ p{
 }
 
 
+/* adjusting for input field content */
+
 .Input_Field{
     padding: 10px 0px 10px 0px;
 }
-
 .Input_Field > :nth-child(1){
     padding-bottom: 10px;
 }
-
 .Input_Field > :nth-child(2){
     width: 65vh;
     padding: 20px 0px 20px 20px;
