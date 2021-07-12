@@ -1,0 +1,36 @@
+#topBar {
+    border: 0px;
+    border-radius: 0px;
+    position: fixed;
+    z-index: 999;
+    background: rgba(255,255,255,0.4);
+    width: 100%;
+    transition: all .2s;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+}
+
+.navbar-header{
+    border: 1px solid red;
+}
+
+#topBar img {
+    width: 100%;
+}
+
+
+.navbar-brand > img {
+    display: block;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding: 10px 0 0 0;
+    border : 1px solid blue;
+}
+
+
+
+

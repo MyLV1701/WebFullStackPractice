@@ -1,0 +1,99 @@
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <div class="menu">
+            <li>NỮ</li>
+            <li>NAM</li>
+            <li>TRẺ EM</li>
+            <li>SALE 50% TOÀN BỘ SẢN PHẨM</li>
+            <li>BỘ SƯU TẬP</li>
+            <li>TIN TỨC</li>
+            <li>THÔNG TIN</li>
+        </div>
+
+        <div class="others">
+            <li> 
+                <!-- <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button> -->
+                <div class="search-container">
+                    <form action="">
+                      <input type="text" placeholder="Tìm kiếm..">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                  </div>
+            </li>
+            <li> 
+                <a href="" ></a>
+                <i class="fa fa-paw"></i>
+            </li>
+            <li> 
+                <a href="" ></a>
+                <i class="fa fa-user"></i>
+            </li>
+	        <li> 
+                <a href="" ></a>
+                <i class="fa fa-shopping-bag"></i>
+            </li>
+        </div>
+    </header>
+	
+	
+	
+	
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 50px;
+    height: 70px;
+    align-items: center;
+}
+
+.logo{
+    flex: 1;
+}
+
+.menu{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu  > li{
+    padding : 0 12px;
+}
+
+.others{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.others > li{
+    padding : 0 12px;
+}
+
+.others > li :first-child{
+    /* border: solid 1px red; */
+    position: relative;
+}
+
+.others li :first-child button {
+    position: absolute;
+}
